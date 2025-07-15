@@ -1,4 +1,4 @@
-/* The page is NOT responsive. You can implement responsiveness yourself if you wanna have some fun 😃 */
+
 
 :root {
   --color-primary: #5ec576;
@@ -156,7 +156,7 @@ p {
   color: #666;
 }
 
-/* This is BAD for accessibility! Don't do in the real world! */
+
 button:focus {
   outline: none;
 }
@@ -180,7 +180,7 @@ img {
   z-index: 100;
 }
 
-/* nav and stickly class at the same time */
+
 .nav.sticky {
   position: fixed;
   background-color: rgba(255, 255, 255, 0.95);
@@ -325,7 +325,7 @@ h4 {
   margin-bottom: 1rem;
 }
 
-/* OPERATIONS */
+
 .operations {
   max-width: 100rem;
   margin: 12rem auto 0 auto;
@@ -449,7 +449,7 @@ h4 {
   align-items: center;
   justify-content: center;
 
-  /* THIS creates the animation! */
+
   transition: transform 1s;
 }
 
@@ -505,8 +505,7 @@ h4 {
   cursor: pointer;
   transition: all 0.5s;
 
-  /* Only necessary when overlying images */
-  /* box-shadow: 0 0.6rem 1.5rem rgba(0, 0, 0, 0.7); */
+
 }
 
 .dots__dot:last-child {
@@ -514,7 +513,7 @@ h4 {
 }
 
 .dots__dot--active {
-  /* background-color: #fff; */
+
   background-color: var(--color-primary);
   opacity: 1;
 }
